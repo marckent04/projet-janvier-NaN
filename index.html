@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="ico" type="image/x-icon" href="./img/icon.ico">
+    <title>Ma cote d'ivoire</title>
+</head>
+
+<body id="app">
+    <header class="container-fluid" id="header">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Ma Cote d'ivoire</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Presentation</a></li>
+                        <li><a href="#destinations">Destinations populaires</a></li>
+                        <li><a href="#gastronomie">Specialites culinaires</a></li>
+                        <li><a href="#temoignage">Temoignages</a></li>
+                        <li class="more">
+                            <a href="https://fr.wikipedia.org/wiki/C%C3%B4te_d%27Ivoire" target='_blank'><span class="hidden-xs hidden-sm">&#124;</span> <i class="fab fa-wikipedia-w"></i></a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class="heading">
+            <h2 class="orange">Ma </h2>
+            <h1>Cote <span class="green">d'Ivoire</span></h1>
+            <h3>Pays d'hospitalite</h3>
+            <h3><span class="orange">Union - </span>Discipline <span class="green">- Travail</span></h3>
+        </div>
+
+        <button class="btn btn-default hidden-xs">
+            <a href="#destinations">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+                <span class="glyphicon glyphicon-minus"></span>
+            </a>
+        </button>
+
+
+    </header>
+
+    <section id="destinations">
+        <div class="container wrapper">
+            <h3>Destinations populaires</h3>
+
+            <div class="col-xs-12 col-md-3">
+                <div class="case row">
+                    <img class="img-responsive img-destination" src="./img/basilique.jpg">
+                    <div class="text-center">
+
+                        <h4 class="name">La basilique notre dame de la paix</h4>
+                        <p class="text-justify more">
+                            La basilique Notre-Dame de la Paix de Yamoussoukro est l’édifice religieux catholique le plus grand au monde.
+                            Son apparence rappelle celle de la basilique Saint-Pierre à Rome. Située à ...
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <a class="btn btn-link" href="https://fr.wikipedia.org/wiki/Basilique_Notre-Dame_de_la_Paix">En savoir plus...</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div class="case row">
+                    <img class="img-responsive img-destination" src="./img/parcTai.jpg">
+                    <div class="text-center">
+                        <h4 class="name">Parc national de Taï</h4>
+                        <p class="text-justify more">
+                            Le parc national de Taï est un parc national de la Côte d'Ivoire situé à l'ouest du pays,
+                            à proximité de la Guinée et du Libéria. Il renferme l'une des dernières forêts primaires d'Afrique. Il est peuplé
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <a class="btn btn-link" href="https://fr.wikipedia.org/wiki/Parc_national_de_Ta%C3%AF">En savoir plus...</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="case row">
+                    <img class="img-responsive img-destination" src="./img/Beach.jpg">
+                    <div class="text-center">
+                        <h4 class="name">Assinie Mafia</h4>
+                        <p class="text-justify more">
+                            Assinie est une localité du sud-est de la Côte d'Ivoire et appartenant au département d'Adiaké, Région du Sud-Comoé.<br>
+                            C'est plus une destination de detente.
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <a class="btn btn-link" href="https://fr.wikipedia.org/wiki/Assinie">En savoir plus...</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="case row">
+                    <img class="img-responsive img-destination" src="./img/cathedraleStPaul.jpg">
+                    <div class="text-center">
+                        <h4 class="name">La cathedrale Saint Paul d'Abidjan</h4>
+                        <p class="text-justify more">
+                            La cathédrale Saint-Paul d’Abidjan est la cathédrale de l'archidiocèse d'Abidjan.
+                            Elle a été bâtie par l'architecte italien Aldo Spirito, à Abidjan à l'initiative du président Félix Houphouët-Boigny.
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <a class="btn btn-link" href="https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Paul_d%27Abidjan">En savoir plus...</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="gastronomie">
+        <div class="container wrapper">
+            <h2>Specialites gastronomiques</h2>
+            <div class="col-md-6 col-xs-12">
+                <div class="case">
+                    <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0">
+                        <img src="./img/garba.jpg" alt="garba" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="row text-center">
+                            <h3 class="name">LE GARBA</h3>
+                        </div>
+                        <div class="row text-justify description">
+                            <p>
+                                Le garba est un plat populaire ivoirien à base de semoule de manioc accompagnée de thon,
+                                essentiellement vendu dans de petites échoppes de rue généralement tenues par des hommes.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="case">
+                    <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0">
+                        <img src="./img/alloco.JPG" alt="alloco" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="row text-center">
+                            <h3 class="name">L' ALLOCO</h3>
+                        </div>
+                        <div class="row text-justify description">
+                            <p>
+                                L'alloco ou aloco, parfois aloko,
+                                est un plat traditionnel ivoirien très populaire en Afrique
+                                de l'Ouest et en Afrique centrale, à base de banane plantain.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="case">
+                    <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0">
+                        <img src="./img/placali.jpg" alt="placali" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="row text-center">
+                            <h3 class="name">LE PLACALI</h3>
+                        </div>
+                        <div class="row text-justify description">
+                            <p>
+                                Le placali est une pâte de manioc fermentée d'origine ivoirienne généralement
+                                dégustée avec la sauce graine, gombo ou kpala.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="case">
+                    <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0">
+                        <img src="./img/foutou.jpg" alt="foutou" class="img-responsive img-thumbnail">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="row text-center">
+                            <h3 class="name">LE FOUTOU</h3>
+                        </div>
+                        <div class="row text-justify description">
+                            <p>
+                                Le foutou banane est un plat ivoirien consommé au Centre et à l'Est de la Côte d'Ivoire.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="temoignage">
+        <h3 class="text-center">~~Quelques temoignages~~</h3>
+        <div id="temoignages" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <img class="img-responsive img-circle picture" src="./img/trump.jpg">
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-xs-offset-0 col-xs-12 col-md-8 col-md-offset-2">
+                                <p class="comments text-justify">
+                                    Je vous proclame des aujourd'hui que le Garba est le graya le plus danhere au monde.
+                                    Tous les americains se doivent de daba du zegen au moins 2 fois par jour maaanncii!!
+                                </p>
+                                <h3 class="person">Donald Trump</h3>
+                                <h4 class="quality">President des Etats Unis d'Amerique</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <img class="img-responsive img-circle picture" src="./img/Bill.jpg">
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-xs-offset-0 col-xs-12 col-md-8 col-md-offset-2">
+                                <p class="comments text-justify">
+                                    je ne cesserai jamais de repenser a ce beau pays plein d'hospitalite. Surtout au placali de tata Antou,
+                                    et au porcodjo du vieux pere qui est devant NaN la, il m'a mis trop dans bon durant mon sejour.
+                                </p>
+                                <h3 class="person">BIll Gates</h3>
+                                <h4 class="quality">Fondateur de Microsoft</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <img class="img-responsive img-circle picture" src="./img/Poutine.jpg">
+                            <div class="row text-center">
+                                <div class="col-xs-offset-0 col-xs-12 col-md-8 col-md-offset-2">
+                                    <p class="comments text-justify">
+                                        Eeeeh Dja ma vieille, ouais les caimans qui sont a la basilique la me faaann trooop,
+                                        je dois les envoyer au Kremlin meme comme ca quand Trump va venir me voir la
+                                        je vais les laisser se promener la il va me vendre toutes leurs armes
+                                    </p>
+                                    <h3 class="person">Vladmir Poutine</h3>
+                                    <h4 class="quality">President de la Russie</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#temoignages" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#temoignages" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class='container'>
+            <div id="footer1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Informations</h4>
+                        <p>Nom : Nanguy</p>
+                        <p>Prenoms : Marc-Henry</p>
+                        <p>Mail : marchenrynanguy1@gmail.com</p>
+                        <p>Contact et WhatsApp: +22541310946</p>
+                    </div>
+                    <div class="col-md-4">
+
+                        <form>
+                            <div class="form-group">
+                                <label for='text'>
+                                    <h4>Vos commentaires</h4>
+                                </label>
+                                <textarea class="form-control" id="text"></textarea>
+                            </div>
+                            <button class="btn btn-warning btn-block">Envoyer </button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Reseaux sociaux</h4>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <a href="https://github.com/marckent04" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://www.linkedin.com/in/marc-henry-nanguy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                            <div class="col-xs-4 ">
+                                <a href="https://www.facebook.com/marc.kent04" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" id="footer2">
+            <p>NaN 2019 &copy; Tout droits reserves</p>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

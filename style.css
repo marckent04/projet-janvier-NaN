@@ -1,0 +1,291 @@
+/* GENERAL */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #f6f7f1;
+    overflow-x: hidden;
+
+}
+
+.green {
+    color: green;
+    text-shadow: 0px 0px 5px green;
+}
+
+.orange {
+    color: orange;
+    text-shadow: 0px 0px 5px orange;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 30px auto;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px black;
+    border: 1px solid black;
+    background: white;
+}
+
+/*Header*/
+#header {
+    text-align: center;
+    position: relative;
+    background-image: url('./img/cover.jpg');
+    background-size: cover;
+    height: 350px;
+}
+
+#header .heading {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 10%;
+
+}
+
+#header .heading h1 {
+    font-size: 9em;
+}
+
+#header .heading h2 {
+    font-size: 7em;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 0;
+} 
+
+#header .btn {
+    background: green;
+    width: 4%;
+    height: 10%;;
+    border: 2px solid green;
+    position: absolute;
+    bottom: 20%;
+    left: 48%;
+    padding: 0;
+    
+    
+}
+
+#header .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 0;
+    color: orange;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+#header .btn a:hover {
+    color: green;
+    
+}
+
+#header .btn:hover {
+    background: orange;
+    border: 1px solid orange;
+}
+
+#header .btn .glyphicon {
+    font-size: 2.2em;
+}
+
+/*header navbar */
+#header .navbar {
+    z-index: 1000;
+    position: fixed;
+    top: 20px;
+    width: 80%;
+    border: none;
+    background: -webkit-linear-gradient(left, orange, white, green);
+    background: -moz-linear-gradient(right, orange, white, green);
+    background: linear-gradient(right, orange, white, green);
+
+}
+
+#header .navbar .navbar-brand {
+    color: black;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+#header .navbar .navbar-right li a {
+    color: black;
+}
+
+
+/* destionations populaires */
+
+#destinations img {
+    width: 80%;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);   
+    margin: 0 auto;
+}   
+
+#destinations .btn-link {
+    color: white;
+}
+#destinations .btn-link:hover {
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+}
+
+#destinations .case {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+    position: relative;
+    background: -webkit-linear-gradient(top, orange, white, green);
+    background: -moz-linear-gradient(bottom, orange, white, green);
+    background: linear-gradient(bottom, orange, white, green);
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+#destinations .case .name {
+    margin: 0 auto;
+    width: 90%;
+    font-weight: bold;
+    border-top: 4px double black;
+    border-bottom: 4px double black;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#destinations .more {
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+}
+
+/* GASTRONOMIE */
+
+#gastronomie .case {
+    width: 96%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#gastronomie .name {
+    margin-top: 4px;
+    padding-top: 0;
+    border-top: 5px double black;
+    border-bottom: 8px double black;
+}
+
+/*TEMOIGNAGES*/
+#temoignages {
+    padding-bottom: 20px;
+    border-bottom: 10px solid #8f233a;
+}
+
+#temoignages a {
+    background-image: none;
+}
+
+#temoignages a .glyphicon {
+    color: #8f233a;
+}
+
+#temoignages img.picture {
+    width: 20%;
+    margin: 13px auto;
+}
+
+#temoignages .comments {
+    font-size: 1.3em;
+}
+
+#temoignages .comments::after, #temoignages .comments::before {
+    content: '""';
+    color: #8f233a;
+}
+
+#temoignages .person {
+    color: #cc6633;
+}
+
+#temoignages .quality {
+    color: #8f233a;
+}
+
+#temoignage {
+    background: #eaeade;
+    text-align: center;
+}
+#temoignage > h3 {
+    padding: 10px;
+    color: #8f233a;
+    background: #eaeade;
+    display: inline-block;
+    margin-bottom: 10px; 
+    border-top: 5px double #8f233a;
+    border-bottom: 5px double #8f233a;
+    
+}
+
+
+
+/*Quelques adaptations pour mobile*/
+@media screen and (max-width: 969px) {
+    
+
+    #app {
+       
+    }
+
+    #header .heading h1 {
+        font-size: 80px;
+    }
+    
+    #header .heading h2 {
+        font-size: 60px;
+    }
+
+    #destinations .case {
+        margin-bottom: 20px;
+    }
+    
+}
+
+/* FOOTER */
+
+footer {
+    background: white;
+}
+ #footer1 a {
+    width: 90%;
+ }
+
+ #footer1 a i {
+    height: 1em;
+    font-size: 4em;
+ }
+
+ #footer1 a i.fa-github {
+     color: black;
+     border-radius: 50%;
+ }
+
+ #footer2 {
+     padding-top: 10px;
+     background-color: #313131;
+     color: white;
+ }
+
+
+
+
+
